@@ -12,6 +12,26 @@ const hashMap = xObject || [
     {
         logo: "F",
         url: "https://www.figma.com"
+    },
+    {
+        logo: "C",
+        url: "https://caniuse.com"
+    },
+    {
+        logo: "I",
+        url: "https://www.iconfont.cn"
+    },
+    {
+        logo: "G",
+        url: "https://github.com"
+    },
+    {
+        logo: "C",
+        url: "https://css-tricks.com"
+    },
+    {
+        logo: "H",
+        url: "https://htmlreference.io"
     }
 ] //把对象放在hashMap里面，如果不行就初始化为含有两项的数组，
 ;

@@ -4,7 +4,12 @@ const x = localStorage.getItem('x')
 const xObject = JSON.parse(x) //读取当前网站下的x，并把它变成一个对象
 const hashMap = xObject || [
     { logo: 'J', url: 'https://juejin.cn' },
-    { logo: 'F', url: 'https://www.figma.com' }
+    { logo: 'F', url: 'https://www.figma.com' },
+    { logo: 'C', url: 'https://caniuse.com' },
+    { logo: 'I', url: 'https://www.iconfont.cn' },
+    { logo: 'G', url: 'https://github.com' },
+    { logo: 'C', url: 'https://css-tricks.com' },
+    { logo: 'H', url: 'https://htmlreference.io' }
 ]//把对象放在hashMap里面，如果不行就初始化为含有两项的数组，
 
 const simplifyUrl = (url) => {
