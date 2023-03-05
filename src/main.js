@@ -10,7 +10,7 @@ const hashMap = xObject || [
     { logo: 'G', url: 'https://github.com' },
     { logo: 'C', url: 'https://css-tricks.com' },
     { logo: 'H', url: 'https://htmlreference.io' }
-]//把对象放在hashMap里面，如果不行就初始化为含有两项的数组，
+]//把对象放在hashMap里面，如果不行就初始化为含有两项的数组
 
 const simplifyUrl = (url) => {
     return url.replace('https://', '')

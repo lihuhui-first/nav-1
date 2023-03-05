@@ -33,7 +33,7 @@ const hashMap = xObject || [
         logo: "H",
         url: "https://htmlreference.io"
     }
-] //把对象放在hashMap里面，如果不行就初始化为含有两项的数组，
+] //把对象放在hashMap里面，如果不行就初始化为含有两项的数组
 ;
 const simplifyUrl = (url)=>{
     return url.replace("https://", "").replace("http://", "").replace("www.", "").replace(/\/.*/, "") //转义字符，删除/开头的内容
